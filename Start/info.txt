@@ -1,0 +1,5 @@
+for creating react app
+
+npx create-react-app 'name'
+cd 'name'
+npm start

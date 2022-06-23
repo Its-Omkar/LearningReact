@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:Inter,sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 75px;
+    padding: 30px 25px ;
+}
+
+.nav-logotext,.nav-text{
+    margin:0;
+}
+
+.nav-logo{
+    height: 30px ;
+    margin-right: 7px;
+}
+.nav-logotext{
+    margin-right: auto;
+    color: white;
+    font-size: 22px;
+}
+
+.nav-text{
+    color: white;
+    font-weight: 600;
+}
+
+main{
+    padding:20px 400px ;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 20px;
+}
+.form--input{
+    border-radius: 5px ;
+}
+.form--button{
+    grid-column: 1/-1;
+    border-radius: 5px ;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    cursor: pointer;
+}
+.meme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meme--image{
+    align-self: center;
+    max-width: 100vw;
+    border-radius: 3px;
+}
+
+.meme--text{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bottom {
+    bottom: 450px;
+}
+
+.top {
+    top: 200px;
+}
