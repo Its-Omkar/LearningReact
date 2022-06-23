@@ -10,7 +10,7 @@ function App() {
     function sub(){
          // setCount(count+1) wrong practice
         setCount(function(oldValue){
-            return oldValue-10
+            return oldValue-1
         })
     }
     return (
